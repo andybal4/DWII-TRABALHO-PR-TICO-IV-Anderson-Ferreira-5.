@@ -1,0 +1,138 @@
+body {
+    background-image: linear-gradient(#ff7e5f, #feb47b); /* Alteração de cores */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    font-family: 'Verdana', sans-serif; /* Alteração da fonte */
+}
+
+header,
+footer {
+    text-align: center; /* Alterado de bottom para center */
+    padding: 15px 0; /* Aumento do padding */
+}
+
+nav ul {
+    list-style-type: none; /* Alterado de circle para none */
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    color: #007bff; /* Alteração da cor */
+    text-align: center;
+    padding: 12px 14px; /* Ajuste no padding */
+    text-decoration: none;
+    border-radius: 20px; /* Ajuste no border-radius */
+    transition: 0.4s; /* Ajuste na transição */
+}
+
+nav ul li a:hover {
+    background-color: #0056b3; /* Alteração da cor */
+}
+
+main {
+    margin-bottom: 50px; /* Ajuste na margem */
+    padding: 25px; /* Ajuste no padding */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 1px solid #e0e0e0; 
+}
+
+th,
+td {
+    padding: 15px; 
+    text-align: left;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #212529;
+    color: #f8f9fa; 
+}
+
+nav {
+    background-color: #ec9508;
+    overflow: hidden;
+    display: flex;
+    border-radius: 10px;
+    align-items:flex-end;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.form-container {
+    max-width: 550px; 
+    margin: 0 auto;
+    padding: 25px; 
+    background-color: #ffffff; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.contact-form {
+    display: grid;
+    grid-gap: 20px; 
+}
+
+.form-group {
+    margin-bottom: 20px; 
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px; 
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group select,
+.form-group textarea {
+    width: 96%; 
+    padding: 12px; 
+    border: 1px solid #bdbdbd;
+    border-radius: 6px; 
+}
+
+.form-group input[type="submit"] {
+    width: auto;
+    padding: 12px 24px;
+    background-color: #007bff; 
+    color: white;
+    border: none;
+    border-radius: 6px; 
+    cursor: pointer;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.form-group select {
+    width: 100%;
+    padding: 12px; 
+    border: 1px solid #bdbdbd;
+    border-radius: 6px; 
+}
